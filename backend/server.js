@@ -8,7 +8,7 @@ dotenv.config();
 initializedDB();
 
 const PORT = process.env.PORT || 3000;
-
+git remote set-url origin git@github.com:olifnapnatnacam27.com/https://github.com/Panfilomacantan2/MERN-project.git
 // MIDDLEWARE
 app.use(cors());
 app.use(bodyParser.json());
